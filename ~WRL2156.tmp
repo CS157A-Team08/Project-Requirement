@@ -46,64 +46,33 @@ This is because admins need to be able to view sale statistics and change the me
 	Customers will have the option of being registered while the other types of users must be registered.  This requirement ensures that each type of user will get certain levels of access to the database.  Both registered and unregistered users can create orders, but those who are unregistered will not be able to view past orders. 
 
 Functions: 
-CS: Customer Service
-
 Browse the current menu:
 - When users press on the menu button, they are presented with the “appetizers”, “entrée”, “dessert”, and “drinks” buttons.  
 - Depending on which button they choose, the window will show the items belonging to that particular category.  The items will be listed in alphabetical order and will contain a corresponding price and a “add to order” button.
-
-Display top five bestselling items:
-- On the main menu page, there is also a button that users can click on to view which are the best-selling items in the past month.
-- The items on the list will exclude items that are not currently available on the menu.
-- This option helps users who are unsure of what to order, and to give them an idea of what is popular at the restaurant.
-
 Create an order and paying for an order:
 - An order is created when a user begins adding items to their cart.
-- Once the user is finished choosing the items they wish to order, they can choose to “complete” their order.
-- The system then calculates the total, presents the subtotal and total cost of their order, before having the customer pay.
-
+- Once the user is finished choosing the items they wish to order, they can choose to finish their order.
+- The system then calculates the total, presents the subtotal and total cost of their order before having the customer pay for their order.
 View orders in chronological order: Kitchen staff
-- Once logged-in, kitchen staff can view orders that must be finished for customers.
-- As orders are finished, they are removed from the list of current orders by the chef (an admin).
-- The orders should be in an order that is based on the time that the order was paid for by the customer. 
-
+- One logged-in, kitchen staff can view orders that must be finished for customers.
+- As orders are finished, they are removed form the list of current orders.
+- The orders should be in order based on the time that the order was paid for by the customer. 
 Change an existing order: staff
 - If customers want to change their order, a CS staff or managerial staff can alter an order if it has not yet been fulfilled by the kitchen staff.
-- If an order has been fulfilled by the kitchen staff, any staff can create a new order for that customer.  
+- If an order has been made, the staff can create a new order for the customer.  
 - If an error was made by a restaurant staff, a management staff can make the new order without charging the customer
-
 Change the menu (adding/deleting menu items): Admins
-- Admins can add and delete menu items, if they are logged in as an administrative user.  
+- Admins can add and delete menu items.  
 - Deleting an item will ask the user to confirm that they do indeed want to go through with the deletion.
-- When adding an item, the user will be asked to enter the name of the item, its ingedients, and its price.
-
+- When adding an item, the user will be asked to enter the name of the item and its price.
 View sales statistics: Admins
 - Admins will be able to choose to view daily, weekly, monthly and yearly sales.  
-- After logging in as an admin, they can click on “view sales” option and then choose the time period they want to view.
 - This includes profits for the chosen time period, and how much of each item was sold in that period.
 
 Create a user account
-- Users are required to enter an email address and username, which can be used to identify an account with.
-- Once an account is created, the order history will keep track of past orders for the customer.
-- Customers can have the option of keeping a credit card on file to make processing of orders quicker if they choose.
-
 Display food information
-- Whenever a user chooses a food item, information related to the food item will be displayed.
-- Each item in the menu should contain information on possible allergens such as nuts, dairy etc., which will let users know what the items are composed of.
-
 Search for a user account 
-- If a user does not remember their email or user name they can use the search feature to look it up.
-- They will input the email or user name to find their account.
-
 Look at past orders to reorder past items
-- Once a user has registered and logged in, they should have data on past orders made under that registered account.
-- The history will show the last order they made within the past year.
-
 Search for specific menu items 
-- After choosing to make an order, there will be a box where users can search up menu items that are currently being sold.
-- The search result will display any menu items that contain the keyword they typed into the search box.
-- Users can choose from the available results, which will then display the information for that item, or there will be an icon stating “don’t see what you are looking for?”
-- If they don’t see the particular item, they are looking for by pressing on that button, there will be a message to explain that the item is not currently available either because ingredients are not available, or that it may be a seasonal item.  
-- There will be a “finish” icon they can click on, which will direct them back to the ordering menu page.
-
+Display top five bestselling items
 
