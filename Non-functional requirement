@@ -1,0 +1,27 @@
+Non-functional requirement
+Graphical user interface (GUI)
+	The main requirement to the graphic user interface is to be easy to use, clear and no confusion. Since this is multiple category of users. Each type of user should have to its own sub-page to divide function they can access to avoid confusion. To access to sub interface 
+
+Security
+To protect the non-customer functional in the system, each staff, manager and owner will have their own account associate with unique ID and password. For example, functional like deleting or alter an existing order requirement password input to proceed. Also, management functional are also password protected to avoid customer access. Finished order , altered an deleted order and stored in database to add security to the system in case of misuse or fraud to the business.
+Access control
+Customer: In this self-ordering system, customers are only allow to do the following function:
+-	Browse the current menu and details
+-	Display food information
+-	Create an order and paying for an order
+-	Search for specific menu items
+-	view top five bestselling items
+Kitchen staff are allow to do the following function:
+-	View orders in chronological order
+-	Set order status as finish
+Customer service staff are allow to do the following function in addition to function above:
+-	Change an existing order after payment has been made: 
+-	Delete/cancel an existing order
+-	Look at past orders to reorder past items
+Management staff and owner are allow to do the following function in addition to function above:
+-	adding / deleting menu items
+-	View sales statistics
+-	Create a new user(staff) account
+-	Display food information
+-	Search for a user account
+-	Display/disable top five bestselling items on menu
