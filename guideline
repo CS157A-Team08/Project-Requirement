@@ -1,0 +1,36 @@
+﻿Project Requirement Document
+   Cover Page: Project Title, Team Information
+   Project Description
+      Provide an overview of the project (Goal, motivation, stack holders, application domain, benefits to users…)
+      System Environment
+      Structure of the system (graph based on 3-tiered architecture)
+      HW/SW used (OS, Redhat, …)
+      RDBMS Used (MySQL version)
+      Application languages…(Java, XML, SQL, GUI Builder, Designer,GTK+…etc)
+  Functional Requirements
+      A list of detailed descriptions of users and how users interact with your application
+      Describe each individual function/feature, functional process and I/O.
+   Non-functional Issues
+        Detailed descriptions of Graphical User Interface…
+        Detailed descriptions of Security…
+        Detailed descriptions of Access Control…
+
+
+How users interact with the application:
+	The four main types of users of this application are customers, customer service staff, management staff, and kitchen staff.
+…… more later.
+
+Functions: 
+Browse the current menu
+Create an order and paying for an order
+View orders in chronological order: Kitchen staff
+Change an existing order after payment has been made: CS staff
+Change the menu (adding/deleting menu items): Management staff & chef
+View sales statistics: Management staff
+Create a user account
+Display food information
+Search for a user account 
+Look at past orders to reorder past items
+Search for specific menu items 
+Display top five bestselling items
+
